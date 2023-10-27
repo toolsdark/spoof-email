@@ -7,7 +7,7 @@ Welcome to Darkey Tools !!
 
 ## Features
 
-- **Simplicity:** Send emails with  easy-to-use web interface--> email.jagrithacker.com
+- **Simplicity:** Send emails with  easy-to-use web interface--> https://email.jagrithacker.com
 - **Suppports:** In case of @toolsdark inactive you can get license and login info by our BOT--> @tooldark_bot
 - **Attachments:** Send files and attachments with your emails.
 - **Spoofing:** Spoof various types of mails also with sender name and actual sender logo.
