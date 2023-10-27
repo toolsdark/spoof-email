@@ -1,4 +1,4 @@
-# EmailSender Bot
+# DARKEY - The email spoofer
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 <br>
@@ -58,8 +58,8 @@ Welcome to Darkey Tools !!
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - see the sppof-mail/LICENSE file for details.
 
 ## Get Started
 
-Get started with EmailSender Bot today and supercharge your email communications. Visit our Telegram [https://t.me/toolsdark] for more  details include test mails.
+Get started with EmailSpoofer today and supercharge your email communications. Visit our Telegram [https://t.me/toolsdark] for more  details include test mails.
