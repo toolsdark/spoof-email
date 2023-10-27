@@ -17,6 +17,26 @@
   - **Attachments:** Send files and attachments with your emails.
   - **Spoofing:** Spoof various types of emails, including sender name and an actual sender logo.
 
+
+  ## [+] Follow Me :
+
+<div style="text-align: center;">
+  <div>
+    <a href="https://t.me/tooldark_bot">
+      <img src="https://img.shields.io/badge/Chat with Bot-🤖-blue?style=for-the-badge&logo=telegram" alt="Telegram Bot">
+    </a>
+    <p style="font-weight: bold; font-size: 16px; margin: 5px 0;">Chat with Bot</p>
+  </div>
+  <div>
+    <a href="https://t.me/toolsdark">
+      <img src="https://img.shields.io/badge/Chat with Owner-👤-blue?style=for-the-badge&logo=telegram" alt="Telegram Owner">
+    </a>
+    <p style="font-weight: bold; font-size: 16px; margin: 5px 0;">Chat with Owner</p>
+  </div>
+</div>
+
+
+
   ### Installation
 
   1. Clone this repository or download the source code.
