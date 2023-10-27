@@ -1,4 +1,8 @@
-  # DARKEY - THE EMAIL SPOOFER
+<p align="center">
+  <img src="https://www.sangfor.com/sites/default/files/2022-08/spoofing_attack.jpg" alt="Logo" width="150" style="border-radius: 50%;">
+</p>
+
+# DARKEY - THE EMAIL SPOOFER
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 <br>
