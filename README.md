@@ -5,7 +5,7 @@
 
   # DARKEY - THE EMAIL SPOOFER
 
- *This Email Spoofer Tool is designed to facilitate email spoofing, which is the act of forging or faking the sender's email address in an email message. These tools are typically used for various purposes, some legitimate, but often they are associated with malicious activities, such as phishing, spamming, or cyberattacks.*
+ *This Email Spoofer Tool is designed to facilitate email spoofing, which is the act of forging or faking the sender's email address in an email message. Our tools are typically used for various purposes, some legitimate, but often they are associated with malicious activities, such as phishing, spamming, or cyberattacks.*
   <br>
   <hr>
   
