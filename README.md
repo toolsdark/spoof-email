@@ -5,7 +5,7 @@
 
   # DARKEY - THE EMAIL SPOOFER
 
-  [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+ *This Email Spoofer Tool is designed to facilitate email spoofing, which is the act of forging or faking the sender's email address in an email message. These tools are typically used for various purposes, some legitimate, but often they are associated with malicious activities, such as phishing, spamming, or cyberattacks.*
   <br>
   <hr>
   
