@@ -67,7 +67,7 @@
 
   ## License
   
-  This project is licensed under the MIT License - see the sppof-mail/LICENSE file for details.
+  This project is licensed under the MIT License - see the sppof-email/LICENSE file for details.
 
     
   ## Get Started
