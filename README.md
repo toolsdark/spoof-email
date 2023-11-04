@@ -12,7 +12,7 @@
 
   ## Features
 
-  - **Simplicity:** Send emails with an easy-to-use web interface at [https://email.jagrithacker.com](https://mailer.jagrithacker.com).
+  - **Simplicity:** Send emails with an easy-to-use web interface at-->(https://mailer.jagrithacker.com).
   - **Supports:** In case of @toolsdark being inactive, you can get a license and login info from our BOT, [@tooldark_bot](https://t.me/tooldark_bot).
   - **Attachments:** Send files and attachments with your emails.
   - **Spoofing:** Spoof various types of emails, including sender name and an actual sender logo.
