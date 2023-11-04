@@ -60,30 +60,34 @@
      $sender_name = $_POST['s_name'];
      $sender_email = $_POST['s_email'];
      ```
+     
   3. **Documentation:**
 
      Explore our sending quality for in-depth information on usage, options, and best practices.
 
   ## License
+  
+  This project is licensed under the MIT License - see the sppof-mail/LICENSE file for details.
 
-    This project is licensed under the MIT License - see the sppof-mail/LICENSE file for details.
-
+    
   ## Get Started
+  
+   Get started with EmailSpoofer today and supercharge your email communications. Visit our Telegram [https://t.me/toolsdark](https://t.me/toolsdark) for more details, including test mails.
 
-    Get started with EmailSpoofer today and supercharge your email communications. Visit our Telegram [https://t.me/toolsdark](https://t.me/toolsdark) for more details, including test mails.
+   
 </div>
 
 
+<p>Email spoofing is a deceptive technique used in email communication to forge the sender's email address, making it appear as if the email was sent from a different source than it actually was. In email spoofing, the sender manipulates the email        headers, particularly the "From" and "Reply-To" fields, to mislead the recipient into believing that the email is coming from a trusted or legitimate source.
 
-    Email spoofing is a deceptive technique used in email communication to forge the sender's email address, making it appear as if the email was sent from a different source than it actually was. In email spoofing, the sender manipulates the email        headers, particularly the "From" and "Reply-To" fields, to mislead the recipient into believing that the email is coming from a trusted or legitimate source.
+  The main goals of email spoofing are typically:
 
-    The main goals of email spoofing are typically:
+  Phishing: Cybercriminals often use email spoofing to impersonate a reputable organization, such as a bank or a government agency, with the intention of tricking the recipient into revealing sensitive information like login credentials, financial         details, or personal information.
 
-    Phishing: Cybercriminals often use email spoofing to impersonate a reputable organization, such as a bank or a government agency, with the intention of tricking the recipient into revealing sensitive information like login credentials, financial         details, or personal information.
+  Spam: Email spoofing can be used to send massive volumes of spam or unsolicited emails while making it seem like they originate from a different sender. This can be used for advertising, distributing malware, or other malicious purposes.
 
-    Spam: Email spoofing can be used to send massive volumes of spam or unsolicited emails while making it seem like they originate from a different sender. This can be used for advertising, distributing malware, or other malicious purposes.
-
-    Malware Distribution: Spoofed emails may contain malicious attachments or links, leading to the download and installation of malware on the recipient's system. The recipient might be more likely to open such emails if they appear to come from a       trusted source.
+  Malware Distribution: Spoofed emails may contain malicious attachments or links, leading to the download and installation of malware on the recipient's system. The recipient might be more likely to open such emails if they appear to come from a       trusted source. </p>
+    
 
 
 
