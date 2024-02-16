@@ -57,7 +57,7 @@ Ensure all required fields are provided before attempting to send the email.
 - Utilized Composer for the installation of PHPMailer.
 
 
-###Changes made in **README.md**:
+### Changes made in **README.md**:
 
 🆕 **New Features**
 - Added an image logo to the README for visual appeal.
@@ -78,3 +78,11 @@ Ensure all required fields are provided before attempting to send the email.
 - Added badges for HTML, JSON, and PHP languages using img.shields.io for better visibility.
 - Added installation instructions for the project.
 - Added a section for the project license and how to get started with EmailSpoofer.
+
+### Changes made in **requirements.txt**:
+
+🔄 **Updates**
+- Added instruction to install Composer after installing PHP in the file.
+
+🔖 **Miscellaneous**
+- No other significant changes were made to the file.
