@@ -1,0 +1,20 @@
+{
+    "name": "light/spoof-email",
+    "description": "Email Spoofer",
+    "type": "project",
+    "require": {
+        "phpmailer/phpmailer": "^6.9"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Light\\SpoofEmail\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Light Yagami"
+        }
+    ],
+    "minimum-stability": "stable"
+}

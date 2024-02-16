@@ -30,3 +30,29 @@ No changes were made to the core functionality of the Email Spoofer tool. The up
 
 📝 **Note:**
 Ensure all required fields are provided before attempting to send the email.
+
+### Changes made in **mailer.php**
+
+
+🆕 **New Features**
+- No new features have been added in this version.
+
+🛠️ **Changes**
+- Refactored the code to improve readability and maintainability.
+- Updated the license message to provide instructions on how to obtain the license key via Telegram.
+
+🐞 **Bug Fixes**
+- No bugs have been fixed in this version.
+
+🔒 **Security Fixes**
+- No security fixes have been applied in this version.
+
+🔄 **Updates**
+- No updates have been applied in this version.
+
+🔖 **Miscellaneous**
+- Added input validation and sanitization to ensure data security.
+- Added error and message handling to improve code robustness.
+- Added `send_email` function using PHPMailer for more reliable email sending.
+- Utilized Composer for the installation of PHPMailer.
+
