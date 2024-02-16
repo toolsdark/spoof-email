@@ -56,3 +56,25 @@ Ensure all required fields are provided before attempting to send the email.
 - Added `send_email` function using PHPMailer for more reliable email sending.
 - Utilized Composer for the installation of PHPMailer.
 
+
+###Changes made in **README.md**:
+
+🆕 **New Features**
+- Added an image logo to the README for visual appeal.
+
+🛠️ **Changes**
+- Modernized and enhanced the README.md with better formatting, including headers, bullet points, and emojis.
+
+🐞 **Bug Fixes**
+- No bug fixes were made in this version.
+
+🔒 **Security Fixes**
+- No security fixes were applied in this version.
+
+🔄 **Updates**
+- No updates were applied in this version.
+
+🔖 **Miscellaneous**
+- Added badges for HTML, JSON, and PHP languages using img.shields.io for better visibility.
+- Added installation instructions for the project.
+- Added a section for the project license and how to get started with EmailSpoofer.

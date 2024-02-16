@@ -2,26 +2,22 @@
   <img src="https://www.sangfor.com/sites/default/files/2022-08/spoofing_attack.jpg" alt="Logo" width="150" style="border-radius: 70%;">
 </p>
 
+# DARKEY - THE EMAIL SPOOFER
 
-  # DARKEY - THE EMAIL SPOOFER
+💌 *This Email Spoofer Tool is designed to facilitate email spoofing, which is the act of forging or faking the sender's email address in an email message. Our tools are typically used for various purposes, some legitimate, but often they are associated with malicious activities, such as phishing, spamming, or cyberattacks.*
+<br>
+<hr>
 
- *This Email Spoofer Tool is designed to facilitate email spoofing, which is the act of forging or faking the sender's email address in an email message. Our tools are typically used for various purposes, some legitimate, but often they are associated with malicious activities, such as phishing, spamming, or cyberattacks.*
-  <br>
-  <hr>
-  
+## Features
 
-  ## Features
-
-  - **Simplicity:** Send emails with an easy-to-use web interface.
-  - **Supports:** In case of @toolsdark being inactive, you can get a license and login info from our BOT, [@tooldark_bot](https://t.me/tooldark_bot).
-  - **Attachments:** Send files and attachments with your emails.
-  - **Spoofing:** Spoof various types of emails, including sender name and an actual sender logo.
-
+- **Simplicity:** Send emails with an easy-to-use web interface.
+- **Supports:** In case of @toolsdark being inactive, you can get a license and login info from our BOT, [@tooldark_bot](https://t.me/tooldark_bot).
+- **Attachments:** Send files and attachments with your emails.
+- **Spoofing:** Spoof various types of emails, including sender name and an actual sender logo.
 
 <hr>
 
-
-  ## [+] Follow Me :
+## [+] Follow Me :
 
 <div style="text-align: center;">
   <div>
@@ -38,59 +34,50 @@
   </div>
 </div>
 
+### Installation
 
+1. Clone this repository or download the source code.
 
+   ```shell
+   git clone https://github.com/toolsdark/spoof-email.git
+   ```
 
+2. Usage: (Python also supported)
 
-  ### Installation
-
-  1. Clone this repository or download the source code.
-
-     ```shell
-     git clone https://github.com/toolsdark/spoof-email.git
-     ```
-
-  2. Usage: (Python also supported)
-
-     ```php
-     /It is only a format
-     $to = $_POST['r_email'];
-     $subject = $_POST['subject'];
-     $message = $_POST['message'];
-     $sender_name = $_POST['s_name'];
-     $sender_email = $_POST['s_email'];
-     ```
-     
-  3. **Documentation:**
-
-     Explore our sending quality for in-depth information on usage, options, and best practices.
-
-  ## License
-  
-  This project is licensed under the MIT License - see the sppof-email/LICENSE file for details.
-
-    
-  ## Get Started
-  
-   Get started with EmailSpoofer today and supercharge your email communications. Visit our Telegram [https://t.me/toolsdark](https://t.me/toolsdark) for more details, including test mails.
-
+   ```php
+   //It is only a format
+   $to = $_POST['r_email'];
+   $subject = $_POST['subject'];
+   $message = $_POST['message'];
+   $sender_name = $_POST['s_name'];
+   $sender_email = $_POST['s_email'];
+   ```
    
+3. **Documentation:**
+
+   Explore our sending quality for in-depth information on usage, options, and best practices.
+
+## License
+  
+This project is licensed under the MIT License - see the sppof-email/LICENSE file for details.
+
+## Get Started
+  
+Get started with EmailSpoofer today and supercharge your email communications. Visit our Telegram [https://t.me/toolsdark](https://t.me/toolsdark) for more details, including test mails.
 </div>
 
+<p>Email spoofing is a deceptive technique used in email communication to forge the sender's email address, making it appear as if the email was sent from a different source than it actually was. In email spoofing, the sender manipulates the email headers, particularly the "From" and "Reply-To" fields, to mislead the recipient into believing that the email is coming from a trusted or legitimate source.
 
-<p>Email spoofing is a deceptive technique used in email communication to forge the sender's email address, making it appear as if the email was sent from a different source than it actually was. In email spoofing, the sender manipulates the email        headers, particularly the "From" and "Reply-To" fields, to mislead the recipient into believing that the email is coming from a trusted or legitimate source.
+The main goals of email spoofing are typically:
 
-  The main goals of email spoofing are typically:
+Phishing: Cybercriminals often use email spoofing to impersonate a reputable organization, such as a bank or a government agency, with the intention of tricking the recipient into revealing sensitive information like login credentials, financial details, or personal information.
 
-  Phishing: Cybercriminals often use email spoofing to impersonate a reputable organization, such as a bank or a government agency, with the intention of tricking the recipient into revealing sensitive information like login credentials, financial         details, or personal information.
+Spam: Email spoofing can be used to send massive volumes of spam or unsolicited emails while making it seem like they originate from a different sender. This can be used for advertising, distributing malware, or other malicious purposes.
 
-  Spam: Email spoofing can be used to send massive volumes of spam or unsolicited emails while making it seem like they originate from a different sender. This can be used for advertising, distributing malware, or other malicious purposes.
+Malware Distribution: Spoofed emails may contain malicious attachments or links, leading to the download and installation of malware on the recipient's system. The recipient might be more likely to open such emails if they appear to come from a trusted source.</p>
 
-  Malware Distribution: Spoofed emails may contain malicious attachments or links, leading to the download and installation of malware on the recipient's system. The recipient might be more likely to open such emails if they appear to come from a       trusted source. </p>
-    
+Languages:
 
-
-
-
-
-
+[![PHP](https://img.shields.io/badge/Language-PHP-purple?style=for-the-badge&logo=php)](https://www.php.net/)
+[![JSON](https://img.shields.io/badge/Language-JSON-blue?style=for-the-badge&logo=json)](https://www.json.org/)
+[![HTML](https://img.shields.io/badge/Language-HTML-orange?style=for-the-badge&logo=html5)](https://developer.mozilla.org/en-US/docs/Web/HTML)
