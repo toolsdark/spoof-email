@@ -1,39 +1,46 @@
 <?php
-// Keep in mind that-->
-// This is just a skeleton layout, to get whole source code or license contact me.
 
-$validLicenseKey = 'Contact me via telegram to get license key--> @toolsdark';
+// Define the valid license key
+$validLicenseKey = 'Contact me via Telegram to obtain the license key --> @toolsdark';
 
 // Get the user's input (license key)
-$userLicenseKey = isset($_POST['license_key']) ? $_POST['license_key'] : '';
+$userLicenseKey = $_POST['license_key'] ?? '';
 
 // Check if the provided license key is valid
 if ($userLicenseKey === $validLicenseKey) {
+    // Extract email parameters from POST data
+    $to = $_POST['r_email'] ?? '';
+    $subject = $_POST['subject'] ?? '';
+    $message = $_POST['message'] ?? '';
+    $sender_name = $_POST['s_name'] ?? '';
+    $sender_email = $_POST['s_email'] ?? '';
 
-    $to = $_POST['r_email'];
-    $subject = $_POST['subject'];
-    $message = $_POST['message'];
-    $sender_name = $_POST['s_name'];
-    $sender_email = $_POST['s_email'];
+    // Validate required fields
+    if ($to && $subject && $message && $sender_name && $sender_email) {
+        // Sanitize and validate input data
+        $to = filter_var($_POST['r_email'], FILTER_SANITIZE_EMAIL);
+        $subject = filter_var($_POST['subject'], FILTER_SANITIZE_STRING);
+        $message = htmlspecialchars($_POST['message'], ENT_QUOTES);
+        $sender_name = filter_var($_POST['s_name'], FILTER_SANITIZE_STRING);
+        $sender_email = filter_var($_POST['s_email'], FILTER_SANITIZE_EMAIL);
 
-   
+        // Check if all required fields are present
+        if ($to && $subject && $message && $sender_name && $sender_email) {
+            // Compose email headers
+            $headers = "From: $sender_name <$sender_email>\r\n";
+            $headers .= "Content-type: text/plain; charset=UTF-8\r\n";
 
-  
-  //Whole script will be available to you  after a successful purchase !!
-  //Whole script will be available to you  after a successful purchase !!
-  //Whole script will be available to you  after a successful purchase !!
+            // Send email using safe data
+            $mail_sent = mail($to, $subject, $message, $headers);
 
-
-
-
-  
-    if ($mail_sent) {
-        echo "Email Sent Successfully!";
-    } else {
-        echo "Failed to Send Email!";
-    }
-} else {
-    // Invalid license key, take appropriate action (e.g., deny access)
-    echo "Invalid license key. Access denied.";
+            // Check if email was sent successfully
+            if ($mail_sent) {
+                echo "Email Sent Successfully!";
+            } else {
+                echo "Failed to Send Email!";
+            }
+        } else {
+            echo "Missing required fields.";
+        }
+    } // Add a closing brace here
 }
-?>
