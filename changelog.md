@@ -86,3 +86,16 @@ Ensure all required fields are provided before attempting to send the email.
 
 🔖 **Miscellaneous**
 - No other significant changes were made to the file.
+
+### Changes made in **style.css**:
+
+🛠️ **Changes**
+- Consolidated and organized CSS styles for better readability and maintainability.
+- Added comments to describe each section of the CSS file.
+- Set a maximum width for the form container to improve responsiveness on larger screens.
+- Added a font family declaration to ensure consistent text rendering across different devices.
+- Added `overflow: hidden;` to the `.logo-container` class to prevent overflowing content.
+
+🔖 **Miscellaneous**
+- No other significant changes were made to the file.
+

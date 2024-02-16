@@ -1,38 +1,44 @@
+/* Custom CSS for the hacker theme */
 
-        /* Add custom CSS for the hacker theme here */
-        body {
-            background-color: #000;
-            color: #0F0;
-        }
+/* Body styles */
+body {
+    background-color: #000;
+    color: #0F0;
+    font-family: Arial, sans-serif;
+}
 
-        /* Style the header */
-        header {
-            background-color: #000;
-        }
+/* Header styles */
+header {
+    background-color: #000;
+    padding: 20px;
+}
 
-        /* Style the form container */
-        .form-container {
-            background-color: #111;
-            padding: 20px;
-            border-radius: 10px;
-            text-align: center;
-            margin: 20px auto;
-            width: 80%;
-        }
+/* Form container styles */
+.form-container {
+    background-color: #111;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 500px;
+    /* Set a maximum width for better responsiveness */
+}
 
-        /* Style the circular logo */
-        .logo-container {
-            width: 150px;
-            height: 150px;
-            border: 2px solid #0F0;
-            border-radius: 50%;
-            margin: 0 auto;
-        }
+/* Circular logo styles */
+.logo-container {
+    width: 150px;
+    height: 150px;
+    border: 2px solid #0F0;
+    border-radius: 50%;
+    margin: 0 auto;
+    overflow: hidden;
+    /* Hide overflowing content */
+}
 
-        .logo {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            border-radius: 50%;
-        }
-   
+.logo {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
