@@ -1,89 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
-     <link rel="stylesheet" type="text/css" href="styles.css">
-   
-    <title>Darkey Tools - Email Spoofer</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Darkey Tools - Email Spoofer</title>
+  <link href="https://cdn.tailwindcss.com" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
+
 <body>
 
-<!-- Header CSS Start -->
-<header class="text-gray-700 body-font">
-  <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
-    <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
-      <div class="logo-container">
-        <img src="https://www.sangfor.com/sites/default/files/2022-08/spoofing_attack.jpg" alt="Logo" class="logo">
-      </div>
-      <span class="ml-3 text-xl">Darkey Tools</span>
-    </a>
-  </div>
-</header>
-<!-- Header CSS End -->
-<hr>
-
-<!-- Form CSS Start -->
-<form action="mailer.php" method="post" enctype="multipart/form-data">
-<section class="text-gray-700 body-font relative">
-  <div class="container px-5 py-24 mx-auto">
-    <div class="flex flex-col text-center w-full mb-12">
-      <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">Darkey Tools Email Spoofer</h1>
-      <p class="lg:w-2/3 mx-auto leading-relaxed text-base">Fill The Required Details to Send a Spoofed Email.</p>
+  <!-- Header Start -->
+  <header class="text-gray-700 body-font">
+    <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+      <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+        <div class="logo-container">
+          <img src="https://www.sangfor.com/sites/default/files/2022-08/spoofing_attack.jpg" alt="Logo" class="logo">
+        </div>
+        <span class="ml-3 text-xl">Darkey Tools</span>
+      </a>
     </div>
-    <div class="lg:w-1/2 md:w-2/3 mx-auto">
-      <div class="flex flex-wrap -m-2">
-        <!-- Add a field for the license key -->
-        <div class="p-2 w-full">
-          <input class="w-full bg-gray-100 rounded border border-gray-400 focus:outline-none focus:border-indigo-500 text-base px-4 py-2" placeholder="Enter your license" type="text" name="license_key">
-        </div>
-        <div class="p-2 w-1/2">
-          <input class="w-full bg-gray-100 rounded border border-gray-400 focus:outline-none focus:border-indigo-500 text-base px-4 py-2" placeholder="Sender's Name" type="text" name="s_name">
-        </div>
-        <div class="p-2 w-1/2">
-          <input class="w-full bg-gray-100 rounded border border-gray-400 focus:outline-none focus:border-indigo-500 text-base px-4 py-2" placeholder="Sender's Email" type="email" name="s_email">
-        </div>
-        <div class="p-2 w-1/2">
-          <input class="w-full bg-gray-100 rounded border border-gray-400 focus:outline-none focus:border-indigo-500 text-base px-4 py-2" placeholder="Subject" type="text" name="subject">
-        </div>
-        <div class="p-2 w-1/2">
-          <input class="w-full bg-gray-100 rounded border border-gray-400 focus:outline-none focus:border-indigo-500 text-base px-4 py-2" placeholder="Reciever's Email" type="email" name="r_email">
-        </div>
-        <div class="p-2 w-full">
-          <textarea class="w-full bg-gray-100 rounded border border-gray-400 focus:outline-none h-48 focus:border-indigo-500 text-base px-4 py-2 resize-none block" placeholder="Message" name="message"></textarea>
-        </div>
-         <div class="p-2 w-full">
-            <label for="attachment">Attachment:</label>
-            <input type="file" name="attachment" id="attachment">
-        </div>
-        <div class="p-2 w-full">
-          <button class="flex mx-auto text-white bg-red-500 border-0 py-2 px-8 focus:outline-none hover:bg-red-600 rounded text-lg" type="submit">Send Email</button>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-</form>
-<!-- Form CSS End -->
-<hr>
+  </header>
+  <!-- Header End -->
+  <hr>
 
-<!-- Footer CSS Start -->
-<footer class="text-gray-700 body-font">
-  <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
-    <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
-      <div class="logo-container">
-        <img src="https://www.sangfor.com/sites/default/files/2022-08/spoofing_attack.jpg" alt="Logo" class="logo">
+  <!-- Form Start -->
+  <form action="mailer.php" method="post" enctype="multipart/form-data">
+    <section class="text-gray-700 body-font relative">
+      <div class="container px-5 py-24 mx-auto">
+        <div class="flex flex-col text-center w-full mb-12">
+          <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">Darkey Tools Email Spoofer</h1>
+          <p class="lg:w-2/3 mx-auto leading-relaxed text-base">Fill The Required Details to Send a Spoofed Email.</p>
+        </div>
+        <div class="lg:w-1/2 md:w-2/3 mx-auto">
+          <div class="flex flex-wrap -m-2">
+            <div class="p-2 w-full">
+              <input
+                class="w-full bg-gray-100 rounded border border-gray-400 focus:outline-none focus:border-indigo-500 text-base px-4 py-2"
+                placeholder="Enter your license" type="text" name="license_key">
+            </div>
+            <div class="p-2 w-1/2">
+              <input
+                class="w-full bg-gray-100 rounded border border-gray-400 focus:outline-none focus:border-indigo-500 text-base px-4 py-2"
+                placeholder="Sender's Name" type="text" name="s_name">
+            </div>
+            <div class="p-2 w-1/2">
+              <input
+                class="w-full bg-gray-100 rounded border border-gray-400 focus:outline-none focus:border-indigo-500 text-base px-4 py-2"
+                placeholder="Sender's Email" type="email" name="s_email">
+            </div>
+            <div class="p-2 w-1/2">
+              <input
+                class="w-full bg-gray-100 rounded border border-gray-400 focus:outline-none focus:border-indigo-500 text-base px-4 py-2"
+                placeholder="Subject" type="text" name="subject">
+            </div>
+            <div class="p-2 w-1/2">
+              <input
+                class="w-full bg-gray-100 rounded border border-gray-400 focus:outline-none focus:border-indigo-500 text-base px-4 py-2"
+                placeholder="Reciever's Email" type="email" name="r_email">
+            </div>
+            <div class="p-2 w-full">
+              <textarea
+                class="w-full bg-gray-100 rounded border border-gray-400 focus:outline-none h-48 focus:border-indigo-500 text-base px-4 py-2 resize-none block"
+                placeholder="Message" name="message"></textarea>
+            </div>
+            <div class="p-2 w-full">
+              <label for="attachment">Attachment:</label>
+              <input type="file" name="attachment" id="attachment">
+            </div>
+            <div class="p-2 w-full">
+              <button
+                class="flex mx-auto text-white bg-red-500 border-0 py-2 px-8 focus:outline-none hover:bg-red-600 rounded text-lg"
+                type="submit">Send Email</button>
+            </div>
+          </div>
+        </div>
       </div>
-      <span class="ml-3 text-xl">Darkey Tools</span>
-    </a>
-    <p class="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">© Darkey Tools
-      <a href="https://github.com/Technowlogy-Pushpender" class="text-gray-600 ml-1" rel="noopener noreferrer" target="_blank">@</a>Darkey Tools
-    </p>
-  </div>
-</footer>
-<!-- Footer CSS End -->
- 
+    </section>
+  </form>
+  <!-- Form End -->
+  <hr>
+
+  <!-- Footer Start -->
+  <footer class="text-gray-700 body-font">
+    <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
+      <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
+        <div class="logo-container">
+          <img src="https://www.sangfor.com/sites/default/files/2022-08/spoofing_attack.jpg" alt="Logo" class="logo">
+        </div>
+        <span class="ml-3 text-xl">Darkey Tools</span>
+      </a>
+      <p class="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">© Darkey
+        Tools
+        <a href="https://github.com/Technowlogy-Pushpender" class="text-gray-600 ml-1" rel="noopener noreferrer"
+          target="_blank">@</a>Darkey Tools
+      </p>
+    </div>
+  </footer>
+  <!-- Footer End -->
 
 </body>
+
 </html>

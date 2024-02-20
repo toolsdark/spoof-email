@@ -1,0 +1,101 @@
+# Changelog
+
+### Changes made in index.html (16/02/2024)
+🛠️ **Technical Changes:**
+- Updated TailwindCSS link to version 2.2.19 for improved styling and compatibility.
+- Maintained existing functionality and layout while modernizing HTML structure.
+
+🔒 **Security Enhancements:**
+- Ensured secure handling of form data and file uploads to prevent potential vulnerabilities.
+
+⚙️ **Other Updates:**
+- Verified all HTML elements for compliance with HTML5 standards.
+- Ensured proper naming conventions and accessibility attributes for enhanced usability.
+
+📝 **Note:**
+No changes were made to the core functionality of the Email Spoofer tool. The updates focused on improving code quality, security, and modernizing the HTML structure.
+
+### Changes made in email_spoofer.php (16/02/2024)
+
+🛠️ **Technical Changes:**
+- Implemented the operator ternary (`??`) to assign default values to POST parameters, ensuring functionality when parameters are absent.
+- Added validation to ensure all required fields (recipient, subject, message, sender name, sender email) are present before sending the email.
+- Utilized the `mail()` function to send emails, setting the sender properly.
+- Enhanced code structure to improve clarity and readability.
+
+🔒 **Security:**
+- Ensured no hardcoded credentials or sensitive data are exposed.
+- Implemented input validation to mitigate potential security risks.
+- Addressed email content injection vulnerabilities by sanitizing and validating user input to prevent HTML or plaintext content injection attacks.
+
+📝 **Note:**
+Ensure all required fields are provided before attempting to send the email.
+
+### Changes made in **mailer.php**
+
+
+🆕 **New Features**
+- No new features have been added in this version.
+
+🛠️ **Changes**
+- Refactored the code to improve readability and maintainability.
+- Updated the license message to provide instructions on how to obtain the license key via Telegram.
+
+🐞 **Bug Fixes**
+- No bugs have been fixed in this version.
+
+🔒 **Security Fixes**
+- No security fixes have been applied in this version.
+
+🔄 **Updates**
+- No updates have been applied in this version.
+
+🔖 **Miscellaneous**
+- Added input validation and sanitization to ensure data security.
+- Added error and message handling to improve code robustness.
+- Added `send_email` function using PHPMailer for more reliable email sending.
+- Utilized Composer for the installation of PHPMailer.
+
+
+### Changes made in **README.md**:
+
+🆕 **New Features**
+- Added an image logo to the README for visual appeal.
+
+🛠️ **Changes**
+- Modernized and enhanced the README.md with better formatting, including headers, bullet points, and emojis.
+
+🐞 **Bug Fixes**
+- No bug fixes were made in this version.
+
+🔒 **Security Fixes**
+- No security fixes were applied in this version.
+
+🔄 **Updates**
+- No updates were applied in this version.
+
+🔖 **Miscellaneous**
+- Added badges for HTML, JSON, and PHP languages using img.shields.io for better visibility.
+- Added installation instructions for the project.
+- Added a section for the project license and how to get started with EmailSpoofer.
+
+### Changes made in **requirements.txt**:
+
+🔄 **Updates**
+- Added instruction to install Composer after installing PHP in the file.
+
+🔖 **Miscellaneous**
+- No other significant changes were made to the file.
+
+### Changes made in **style.css**:
+
+🛠️ **Changes**
+- Consolidated and organized CSS styles for better readability and maintainability.
+- Added comments to describe each section of the CSS file.
+- Set a maximum width for the form container to improve responsiveness on larger screens.
+- Added a font family declaration to ensure consistent text rendering across different devices.
+- Added `overflow: hidden;` to the `.logo-container` class to prevent overflowing content.
+
+🔖 **Miscellaneous**
+- No other significant changes were made to the file.
+
