@@ -1,6 +1,6 @@
 <p align="center">
-  <img src="https://www.sangfor.com/sites/default/files/2022-08/spoofing_attack.jpg" alt="Logo" width="150" style="border-radius: 70%;">
-</p>
+        <img src="https://www.sangfor.com/sites/default/files/2022-08/spoofing_attack.jpg" alt="Logo" width="150" style="border-radius: 50%;">
+    </p>
 
 # EmailSender 
 
