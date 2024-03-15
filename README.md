@@ -1,96 +1,35 @@
-<p align="center">
-  <img src="https://www.sangfor.com/sites/default/files/2022-08/spoofing_attack.jpg" alt="Logo" width="150" style="border-radius: 70%;">
-</p>
+Call via Custom Sender ID
+Overview
 
+This repository provides resources and instructions for enabling calls via custom sender ID, also known as caller ID spoofing. With the ability to customize the sender ID, users can make calls from numbers that are not their own, enhancing privacy and personalization in communication.
+Author
 
-  # DARKEY - THE EMAIL SPOOFER
+Darkey
+Facilities
 
- *This Email Spoofer Tool is designed to facilitate email spoofing, which is the act of forging or faking the sender's email address in an email message. Our tools are typically used for various purposes, some legitimate, but often they are associated with malicious activities, such as phishing, spamming, or cyberattacks.*
-  <br>
-  <hr>
-  
+    Caller ID Spoofing: Customize the caller ID to display a desired number when making calls.
+    Enhanced Privacy: Protect your personal number by masking it with a custom sender ID.
+    Personalization: Tailor your caller ID to suit specific contexts or recipients.
+    Business Applications: Useful for businesses to display a consistent company number when communicating with clients or customers.
+    Security Considerations: Understand the ethical and legal implications of using caller ID spoofing responsibly.
+    Usage Guidelines: Detailed instructions on how to set up and use custom sender ID for calls.
 
-  ## Features
+How to Use
 
-  - **Simplicity:** Send emails with an easy-to-use web interface.
-  - **Supports:** In case of @toolsdark being inactive, you can get a license and login info from our BOT, [@tooldark_bot](https://t.me/tooldark_bot).
-  - **Attachments:** Send files and attachments with your emails.
-  - **Spoofing:** Spoof various types of emails, including sender name and an actual sender logo.
+Follow the instructions provided in the documentation to set up and use custom sender ID for making calls. Ensure compliance with relevant regulations and ethical standards when utilizing caller ID spoofing services.
+Resources
 
+    Documentation: [Link to Documentation]
+    Examples: [Link to Examples]
+    FAQs: Frequently Asked Questions
+    Legal Disclaimer: Information on legal implications and responsibilities
 
-<hr>
+Contributions
 
+Contributions to enhance the documentation or provide additional resources are welcome. Please follow the contribution guidelines outlined in the repository.
+License
 
-  ## [+] Follow Me :
+This project is licensed under the MIT License. Please review the license before using or contributing to the project.
 
-<div style="text-align: center;">
-  <div>
-    <a href="https://t.me/tooldark_bot">
-      <img src="https://img.shields.io/badge/Chat with Bot-🤖-blue?style=for-the-badge&logo=telegram" alt="Telegram Bot">
-    </a>
-    <p style="font-weight: bold; font-size: 16px; margin: 5px 0;">Chat with Bot</p>
-  </div>
-  <div>
-    <a href="https://t.me/toolsdark">
-      <img src="https://img.shields.io/badge/Chat with Owner-👤-blue?style=for-the-badge&logo=telegram" alt="Telegram Owner">
-    </a>
-    <p style="font-weight: bold; font-size: 16px; margin: 5px 0;">Chat with Owner</p>
-  </div>
-</div>
-
-
-
-
-
-  ### Installation
-
-  1. Clone this repository or download the source code.
-
-     ```shell
-     git clone https://github.com/toolsdark/spoof-email.git
-     ```
-
-  2. Usage: (Python also supported)
-
-     ```php
-     /It is only a format
-     $to = $_POST['r_email'];
-     $subject = $_POST['subject'];
-     $message = $_POST['message'];
-     $sender_name = $_POST['s_name'];
-     $sender_email = $_POST['s_email'];
-     ```
-     
-  3. **Documentation:**
-
-     Explore our sending quality for in-depth information on usage, options, and best practices.
-
-  ## License
-  
-  This project is licensed under the MIT License - see the sppof-email/LICENSE file for details.
-
-    
-  ## Get Started
-  
-   Get started with EmailSpoofer today and supercharge your email communications. Visit our Telegram [https://t.me/toolsdark](https://t.me/toolsdark) for more details, including test mails.
-
-   
-</div>
-
-
-<p>Email spoofing is a deceptive technique used in email communication to forge the sender's email address, making it appear as if the email was sent from a different source than it actually was. In email spoofing, the sender manipulates the email        headers, particularly the "From" and "Reply-To" fields, to mislead the recipient into believing that the email is coming from a trusted or legitimate source.
-
-  The main goals of email spoofing are typically:
-
-  Phishing: Cybercriminals often use email spoofing to impersonate a reputable organization, such as a bank or a government agency, with the intention of tricking the recipient into revealing sensitive information like login credentials, financial         details, or personal information.
-
-  Spam: Email spoofing can be used to send massive volumes of spam or unsolicited emails while making it seem like they originate from a different sender. This can be used for advertising, distributing malware, or other malicious purposes.
-
-  Malware Distribution: Spoofed emails may contain malicious attachments or links, leading to the download and installation of malware on the recipient's system. The recipient might be more likely to open such emails if they appear to come from a       trusted source. </p>
-    
-
-
-
-
-
-
+<br>
+Feel free to reach out to Darkey for any inquiries or assistance regarding the usage of custom sender ID for calls.
