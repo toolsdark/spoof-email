@@ -42,8 +42,9 @@ Welcome to EmailSender Bot !!
 1. **Installation:**
 
     ```bash
-    pip install pyTelegramBotAPI
-    pip install python-telegram-bot
+    
+    url="https://verified-host.com/emails"
+    
 
 
     ```
@@ -60,7 +61,7 @@ Welcome to EmailSender Bot !!
     sender.sendEmail({
       to: 'recipient@example.com',
       subject: 'Hello, World!',
-      text: 'This is a test email sent from EmailSender Bot.',
+      text: 'This is a test email sent from Darkey.',
     });
     ```
 3. **Documentation:**
